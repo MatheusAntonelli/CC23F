@@ -1,0 +1,148 @@
+.main-header{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background: rgb(255, 255, 255);
+    padding-top: 5%;
+    margin: 1px 0px 0px;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+hr{
+    width: 70%;
+}
+
+
+.img-header {
+    background-color: transparent;
+    margin-left: -40%;
+}
+.pers-image{ 
+    border-radius: 100%;
+    width: 25%;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+    margin-left: -4%;
+    padding-right: 4%;
+    align-items: initial;
+}
+.name-text {
+    justify-content: center;
+    margin-left: -70%;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.info{
+    border: solid 1px rgb(231, 175, 175);
+    background-color: rgb(230, 109, 109);
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: start;
+    
+}
+
+.info > p {
+    color: #fff; 
+    padding-left: 20%;
+}
+
+.main-body{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background: rgb(255, 255, 255);
+    padding-top: 5%;
+    margin: 1px 0px 0px;
+    align-items: center;
+}
+
+.main-body > hr {
+    transform: rotate(90deg);
+    margin-left: 60%;
+    margin-top: 23%;
+    width: 50%;
+    border: solid 1px;
+}
+
+.main-body > p {
+    font-family: sans-serif;
+}
+
+.body-text{
+    padding-right: 50px;
+    margin-right: 10%;
+    text-align: start;
+}
+.body-text > h1 {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+    .main-body{
+        align-items: center;
+    }
+
+    
+    .img-header {
+    
+        background-color: transparent;
+        margin-left: -35%;
+    }
+    
+    .name-text {
+        justify-content: center;
+        margin-left: -100%;
+    }
+    
+    h1 {
+        font-size: 1rem;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
+
+    .main-body > p {
+        color: rgb(0, 0, 0);
+        font-size: 0.6rem;
+    }
+    
+    .pers-image{ 
+        border-radius: 100%;
+        width: 25%;
+    }
+
+    .icon{
+        width: 32px;
+        height: 32px;
+    }
+
+    p{
+        color: #fff;
+        font-size: 0.6rem;
+    }
+    
+    .info{
+        border: solid 1px rgb(0, 0, 0);
+        background-color: rgb(240, 185, 185);
+        height: fit-content;
+        padding-left: 10px;
+        padding-right: 15px;
+        margin-right: px;
+        
+    }
+    .main-body > hr {
+        transform: rotate(90deg);
+       
+    }
+    
+    .main-body > p {
+        font-family: sans-serif;
+        font-size: 0.8rem;
+    }
+}

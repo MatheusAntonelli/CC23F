@@ -1,6 +1,8 @@
 import React from 'react'
+import Exercise1 from '../Components/Atv1/Exercise1'
 import MainSection from '../Components/MainSection/MainSection'
 import Navbar from '../Components/Navbar/Navbar'
+import SocialProfiles from '../Components/SocialProfiles/SocialProfiles'
 
 function MainPage() {
     return (
@@ -8,7 +10,8 @@ function MainPage() {
             <Navbar/>
             <MainSection/>
             <section id='atv-1'>
-                <p>Colocar aqui a primeira atividade.</p>
+                <Exercise1></Exercise1>
+                <SocialProfiles></SocialProfiles>
             </section>
         </>
     )

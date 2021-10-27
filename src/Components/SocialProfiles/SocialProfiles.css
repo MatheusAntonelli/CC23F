@@ -1,0 +1,28 @@
+.container{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.iphone > .smart {
+    width: 580px;
+}
+
+.iphone{
+    z-index: 1;
+}
+
+.iphone > .social-media{
+    margin-top: -75%;
+}
+
+.iphone > h1 {
+    margin-top: 100%;
+}
+
+a{
+    padding: 0.5%;
+    margin-right: 0.5%;
+}
+
