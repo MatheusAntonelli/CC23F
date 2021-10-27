@@ -21,12 +21,13 @@ function Exercise1() {
 
         <div className="main-body">
             <hr />
-            <p className="body-text"><h1>Sobre mim:</h1> Ola, me chamo Matheus Antonelli de Oliveira, sou estudante do 3º periodo de agronomia da Universidade
-             Tecnológica Federal do Paraná</p>
+            <p className="body-text"><h1>Sobre mim:</h1> Ola, me chamo Matheus Antonelli de Oliveira, sou discente do 3º periodo de agronomia da Universidade
+             Tecnológica Federal do Paraná.</p>
             <hr />
-            <p className="body-text"><h1>Interesses</h1>: Arduino, JavaScript, ReactJS</p>
+            <p className="body-text"><h1>Interesses:</h1>- Arduino <br/>- JavaScript <br/>- ReactJS <br/>- Java</p>
+            <hr />
+            <p className="body-text"><h1>Objetivos:</h1>- Aprender a materia de Linguagem de Estruturação / Apresentação de Conteúdos. </p>
         </div>
-        
         </>
     )
 }

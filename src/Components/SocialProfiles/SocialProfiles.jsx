@@ -4,6 +4,7 @@ import './SocialProfiles.css'
 function SocialProfiles() {
     return (
         <>
+            <section className='all-social'>
             <div className="container">
                 <h1>Minhas Redes Sociais</h1>
                 <div className="iphone">
@@ -15,6 +16,8 @@ function SocialProfiles() {
                     </div>
                 </div>
             </div>
+            </section>
+            
 
         </>
     )
