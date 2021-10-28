@@ -8,13 +8,13 @@ function Exercise1() {
         <div className="main-header">
         
             <div className="img-header">
-                <img src="./img/pp.jfif" alt="" className='pers-image'/>
+                <img src="./img/pp.jfif" alt="pp" className='pers-image'/>
             </div>
             <div className="name-text"><h1>Matheus Antonelli</h1><hr/></div>
             <div className="info">
-                <p><img src="./img/location.png" className="icon" /> Foz do Iguaçu - PR</p>
+                <p><img src="./img/location.png" alt="loc" className="icon" /> Foz do Iguaçu - PR</p>
                 <hr/>
-                <p><img src="./img/mail.png" className="icon" />Matheusantonelli@alunos.utfpr.edu.br</p>
+                <p><img src="./img/mail.png" alt="mail" className="icon" />Matheusantonelli@alunos.utfpr.edu.br</p>
             </div>
         </div>
 
