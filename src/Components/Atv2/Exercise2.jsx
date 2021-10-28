@@ -13,8 +13,8 @@ function Exercise2() {
             </div>
             <div className="container">
                 <div className="vector">
-                    <img src="./img/engrenagem.png" className='engrenagem-1'/>
-                    <img src="./img/engrenagem.png" className='engrenagem-2'/>
+                    <img src="./img/engrenagem.png" alt="engre-1" className='engrenagem-1'/>
+                    <img src="./img/engrenagem.png" alt="engre-2" className='engrenagem-2'/>
                 </div>
             </div>
         </section>
