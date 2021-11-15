@@ -1,0 +1,75 @@
+.about{
+    font-family: sans-serif;
+}
+
+  
+.course-text{
+   margin-top: 5%;
+   margin-bottom: 10px;
+}
+.about-banner {
+    height: 100%;
+    width: 100%;
+    border-radius: 1%;
+    
+}
+
+.feature{
+    display: flex;
+    background-color: rgba(48, 48, 41,0.9);
+    height: fit-content;
+    text-justify:distribute;
+    justify-content: center ;
+    height: 65vh;
+    margin-top: 5%;
+    max-width: 100%;
+
+}
+
+.feature > p{
+    padding: 2%;
+    width: 80%;
+    margin-left: 9%;
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-top: 13%;
+}
+
+.info-about{
+    border: solid 1px rgb(153, 153, 153);
+    background-color: rgb(124, 124, 124, 0.5);
+    margin-right: 20px;
+    text-align: start;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+}
+
+.table{
+    width: fit-content;
+    height: 20px;
+    padding: 10px;
+    padding-left: 40%;
+    font-family: sans-serif;
+}
+td{
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+}
+
+.icon-table{
+    width: 32px;
+    height: 32px;
+    margin-left: -4%;
+    padding-right: 4%;
+    align-items: initial;
+}
