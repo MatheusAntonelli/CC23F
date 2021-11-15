@@ -14,6 +14,8 @@ function Agrometeorologia() {
             informações de tempo e clima com os sistemas de produção agropecuário, com decisões sustentáveis e inovadoras."
             person=' Fabrício Correia de Oliveira'
             mail="N/A"
+            next="/disciplina/classificacao-solo"
+            previous="/disciplina/agrometeorologia-climatologia/"
             />
         </>
     )

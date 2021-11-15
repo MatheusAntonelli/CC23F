@@ -13,6 +13,8 @@ function Genetica() {
              hereditariedade da produtividade e outras diversas caracteristicas agronômicas que vão determinando o controle genético, o efeito ambiental e suas interações."
              person='Glauco Vieira Miranda'
              mail="N/A"
+             next="/disciplina/topografia"
+             previous="/disciplina/etica"
              />            
         </>
     )

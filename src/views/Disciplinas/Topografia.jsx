@@ -12,6 +12,8 @@ function Topografia() {
              topograficos, computar os dados coletados aplicando as metodologias pertinentes de forma acurada e representar os diversos tipos de aplicações"
              person='Dr. Vinícius Amadeu Stuani Pereira'
              mail="N/A"
+             next="/disciplina/sistematica-vegetal"
+             previous="/disciplina/genetica"
              />          
         </>
     )

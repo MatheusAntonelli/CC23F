@@ -7,7 +7,7 @@ function Cards() {
     <section id='features'>
       
         <div className='cards'>
-      <h1>Disciplinas que eu curso.</h1>
+      <h1>Disciplinas que estou cursando</h1>
        
       <div className='cards__container'>
         <div className='cards__wrapper'>

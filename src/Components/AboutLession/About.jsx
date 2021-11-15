@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
-
+import { Link } from 'react-router-dom';
+import { Button } from '../Button/Button'
 function About(props) {
     return (
         <>  
@@ -19,18 +20,33 @@ function About(props) {
                         />
                     </figure>
                 </div>
-                <div className="info-about">
+                <div className="info-about column-3">
+                    <Link to={props.previous}>
+                    <Button className="btn"
+                    buttonSize='btn-medium'
+                    buttonStyle='btn-outline'
+                    >
+                        Disciplina Anterior
+                    </Button>
+                    </Link>
                     <table border='0' className='table'>
                         <tr>
                           <td><img src="/img/user-profile.png" alt="By Pavani TLN" className="icon-table" />Professor(a): {props.person}</td> 
                         </tr>
-                        </table>
-                        <table className="table">
+                        
                         <tr>
                           <td><img src="/img/mail.png" alt="mail" className="icon-table" />Email: {props.mail}</td>  
                         </tr>
                         </table>
-            </div>
+                        <Link to={props.next}>
+                        <Button className="btn"
+                            buttonSize='btn-medium'
+                            buttonStyle='btn-outline'
+                        >
+                            Proxima Disciplina
+                        </Button>
+                        </Link>
+                </div>
             </div>
             
         </>

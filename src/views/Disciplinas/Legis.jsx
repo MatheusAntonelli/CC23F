@@ -14,6 +14,8 @@ function Legis() {
              e ambiental do país, interpretar diferentes correntes de pensamentos que influenciam na promulgação de leis ambientais."
              person='Reginaldo César Pinheiro'
              mail="N/A"
+             next="/disciplina/genetica"
+             previous="/disciplina/classificacao-solo"
              />
         </>
     )

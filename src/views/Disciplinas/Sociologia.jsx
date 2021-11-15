@@ -13,6 +13,8 @@ function Sociologia() {
              teoricos à realidade empírica observada no exercício profissional, de forma ética, legal e respeitosa."
              person='Alessandra Matte'
              mail="N/A"
+             next="/disciplina/estatistica"
+             previous="/disciplina/sistematica-vegetal"
              />              
         </>
     )

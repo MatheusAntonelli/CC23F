@@ -14,6 +14,8 @@ function Sistematica() {
              as especies e nomeclatura das mesmas."
              person='Leonardo'
              mail="N/A"
+             next="/disciplina/sociologia-rural"
+             previous="/disciplina/topografia"
              />         
         </>
     )

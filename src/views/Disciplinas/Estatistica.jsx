@@ -14,6 +14,8 @@ function Estatistica() {
              utilizado para a resolução de um determinado problema de engenharia."
              person='Dr. Alessandro Samuel-Rosa'
              mail="N/A"
+             previous="/disciplina/sociologia-rural"
+             next="/disciplina/linguagem-estruturacao"
              />               
         </div>
     )
